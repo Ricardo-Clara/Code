@@ -1,0 +1,10 @@
+*, *:focus {
+    box-sizing: border-box;
+    outline: none;
+}
+
+.App {
+    background: linear-gradient(180deg, #4c4c4c, black);
+    width: 100vw;
+    height: 100vh;
+}

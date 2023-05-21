@@ -1,0 +1,63 @@
+.main-board {
+    background-color: black;
+    width: 700px;
+    height: 400px;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+}
+
+.middle-line {
+    height: 400px;
+    width: 5px;
+    background: repeating-linear-gradient(#d3d3d3 0%, #d3d3d3 4%, transparent 4%, transparent 8%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.right-stick {
+    background-color: #d3d3d3;
+    height: 90px;
+    width: 15px;
+    position: relative;
+    transform: translate(0, -50%);
+    left: 5%;
+}
+
+.left-stick {
+    background-color: #d3d3d3;
+    height: 90px;
+    width: 15px;
+    position: absolute;
+    transform: translate(0, -50%);
+    right: 5%;
+}
+
+.ball {
+    width: 15px;
+    height: 15px;
+    background-color: #d3d3d3;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+}   
+
+.border-bottom {
+    width: 700px;
+    height: 15px;
+    background-color: #d3d3d3;
+    position: absolute;
+    top: 99%;
+}
+
+.border-top {
+    width: 700px;
+    height: 15px;
+    background-color: #d3d3d3;
+    position: absolute;
+    top: -3%;
+}

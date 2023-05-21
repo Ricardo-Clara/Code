@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+.score {
+    font-family: 'Righteous', cursive, sans-serif;
+    position: absolute;
+    left: 50%;
+    font-size: 80px;
+    padding: 0;
+    transform: translate(-50%, 0);
+    color: #d3d3d3;
+}
+
+.score-left {
+    position: absolute;
+    left: 130px;
+}
+
+.score-right {
+    position: absolute;
+    left: -185px;
+}
